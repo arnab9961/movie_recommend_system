@@ -1,7 +1,6 @@
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer import pickle
-from sklearn.metrics.pairwise import linear_kernel
 import streamlit as st
+import pandas as pd
+import pickle
 
 st.set_page_config(
     page_title="Movie Recommendation App",
