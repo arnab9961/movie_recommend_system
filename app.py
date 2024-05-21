@@ -1,6 +1,5 @@
-import pickle
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer import pickle
 from sklearn.metrics.pairwise import linear_kernel
 import streamlit as st
 
