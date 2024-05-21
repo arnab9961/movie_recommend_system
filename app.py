@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🎬",
 )
 
-st.sidebar.success(https://medicine-recommend.streamlit.app/)
+st.sidebar.success("https://medicine-recommend.streamlit.app/")
 
 
 
