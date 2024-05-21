@@ -38,7 +38,7 @@ def recommend_content(movie):
 movies_dct = pickle.load(open('movies_dct.pkl','rb'))
 movies = pd.DataFrame(movies_dct)
 
-similarity = pickle.load(open('similarity.pkl','rb'))
+
 
 st.title('Movie Recommendation System')
 
