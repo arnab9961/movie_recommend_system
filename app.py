@@ -27,7 +27,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 def recommend_content(movie):
     movie_index = movies[movies['title'] == movie].index[0]
-    distances = similarity[movie_index]
+    distances = movies)dct[movie_index]
     movies_list = sorted(list(enumerate(distances)), reverse=True,key=lambda x:x[1])[1:6]
 
     recommend_movies = []
